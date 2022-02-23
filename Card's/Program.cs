@@ -56,27 +56,27 @@ namespace dev_rus
     {
         static IEnumerable<string> Suits()
         {
-            yield return "clubs";
-            yield return "diamonds";
-            yield return "hearts";
-            yield return "spades";
+            yield return "трефы";
+            yield return "бубны";
+            yield return "черви";
+            yield return "пики";
         }
 
         static IEnumerable<string> Ranks()
         {
-            yield return "two";
-            yield return "three";
-            yield return "four";
-            yield return "five";
-            yield return "six";
-            yield return "seven";
-            yield return "eight";
-            yield return "nine";
-            yield return "ten";
-            yield return "jack";
-            yield return "queen";
-            yield return "king";
-            yield return "ace";
+            yield return "2";
+            yield return "3";
+            yield return "4";
+            yield return "5";
+            yield return "6";
+            yield return "7";
+            yield return "8";
+            yield return "9";
+            yield return "10";
+            yield return "Валет";
+            yield return "Дама";
+            yield return "Король";
+            yield return "Туз";
         }
         // Program.cs
 
